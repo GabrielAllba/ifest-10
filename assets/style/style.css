@@ -202,7 +202,7 @@ ul{
     top: 50%;
     left: 0;
     background-image: linear-gradient(#7c009b, rgb(255, 0, 140));
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
@@ -284,3 +284,50 @@ table{
         box-shadow: none;
     }
 } 
+@media screen and (max-width: 500px){
+    *{
+        text-align: center;
+    }
+    .content .data{
+        max-width: 80%;
+        position: relative;
+        padding: 50px 20px;
+    }
+    
+    .content h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .main-info > td{
+        font-size: 2rem;
+    }
+    ul{
+        top: 90%;
+        left: 28%;
+        display: flex;
+        border-radius: 15px;
+        padding: 5px 10px;
+        text-align: center;
+    }
+    li{
+        list-style: none;
+        margin: 10px;
+        display: flex;
+        transform: translateY(0%);
+        transition: .5s;
+    }
+    table{
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+
+}
+@media only screen and (max-width: 376px){
+    .main-info > td{
+        font-size: 1.3rem;
+    }
+}
