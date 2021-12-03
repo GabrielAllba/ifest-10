@@ -30,7 +30,6 @@ let countDown = () => {
         d = 0
     }
     document.getElementById("days").textContent = d
-    document.getElementById("days").textContent = d
     document.getElementById("hours").textContent = h
     document.getElementById("minutes").textContent = m
     document.getElementById("seconds").textContent = s
