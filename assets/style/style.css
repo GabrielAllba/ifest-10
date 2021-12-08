@@ -302,8 +302,9 @@ table{
         font-size: 2rem;
     }
     ul{
-        top: 90%;
-        left: 28%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,280%);
         display: flex;
         border-radius: 15px;
         padding: 5px 10px;
@@ -322,8 +323,11 @@ table{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+        border-spacing: .6rem;
     }
-    
+    .main-info > td{
+        padding: .5rem;
+    }
 
 }
 @media only screen and (max-width: 376px){
