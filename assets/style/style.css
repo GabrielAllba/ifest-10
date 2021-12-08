@@ -288,10 +288,20 @@ table{
     *{
         text-align: center;
     }
+    .cs{
+        height: auto;
+        width: 100%;
+        background-image: url("../images/background-fix-01.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        background-position: right;
+    }
     .content .data{
         max-width: 80%;
         position: relative;
         padding: 50px 20px;
+        background: rgba(255, 255, 255, 0.856);
     }
     
     .content h1{
